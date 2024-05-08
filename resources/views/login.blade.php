@@ -23,7 +23,7 @@
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required>
         </fieldset>
-        <button type="submit">Entrar</button>
+        <input type="submit" value="entrar" name="entrar">
         <a class="button" href="{{ route('register') }}">Inscrever-se</a>
     </form>
 </main>

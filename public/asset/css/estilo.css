@@ -1,22 +1,18 @@
-/* estilo.css */
-
-/* Estilos para o corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: black;
+    color: white; /* Texto branco para contrastar com o fundo preto */
+    font-family: Arial, sans-serif; /* Escolha uma fonte adequada */
 }
 
-/* Estilos para o contêiner principal */
+/* Estilo para o container principal do formulário */
 main {
-    max-width: 600px;
+    max-width: 600px; /* Ajuste conforme necessário */
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
-/* Estilos para os campos de entrada */
+/* Estilo para os campos de entrada */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -26,29 +22,52 @@ select,
 textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 5px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
-/* Estilos para o botão de envio */
+/* Estilo para o botão de envio */
 input[type="submit"] {
     width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #4CAF50; /* Cor verde para o botão */
+    color: white;
+    padding: 15px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
-input[type="submit"]:hover {
-    background-color: #0056b3;
+/* Estilo para os rótulos dos campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
-/* Estilos para os links */
+/* Estilo para os campos de entrada em foco */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4CAF50; /* Cor verde para indicar foco */
+}
+
+/* Estilo para a mensagem de erro */
+.error-message {
+    color: #FF0000; /* Cor vermelha para indicar erro */
+    font-size: 14px;
+}
+
+/* Estilo para o link nos termos de uso */
 a {
-    color: #007bff;
+    color: #4CAF50; /* Cor verde para os links */
     text-decoration: none;
 }
 
