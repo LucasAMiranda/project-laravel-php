@@ -31,7 +31,7 @@
             <input type="email" id="email" name="email" required>
 
             <label for="email">Senha:</label>
-            <input type="password" id="email" name="email" required>
+            <input type="password" id="email" name="senha" required>
 
             <label for="telefone">Telefone:</label>
             <input type="tel" id="telefone" name="telefone">
